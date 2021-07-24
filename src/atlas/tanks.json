@@ -1,0 +1,36 @@
+{"frames": {
+
+"tank_02_cannon.png":
+{
+	"frame": {"x":0,"y":0,"w":242,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":242,"h":61},
+	"sourceSize": {"w":242,"h":61}
+},
+"tank_02_hull.png":
+{
+	"frame": {"x":0,"y":149,"w":572,"h":189},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":572,"h":189},
+	"sourceSize": {"w":572,"h":189}
+},
+"tank_02_turret.png":
+{
+	"frame": {"x":242,"y":0,"w":244,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":149},
+	"sourceSize": {"w":244,"h":149}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tanks.png",
+	"format": "RGBA8888",
+	"size": {"w":572,"h":338},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e78c173577b6a3130a44469b554ce8d8:3940402e85caab22b70107a09e376e28:e3ee765dcb86c37cc90e57d93acf6013$"
+}
+}

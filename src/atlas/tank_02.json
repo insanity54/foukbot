@@ -1,0 +1,50 @@
+{"frames": {
+
+"tank_02.png":
+{
+	"frame": {"x":0,"y":0,"w":721,"h":361},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":721,"h":361},
+	"sourceSize": {"w":721,"h":361},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"tank_02_cannon.png":
+{
+	"frame": {"x":721,"y":0,"w":721,"h":361},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":721,"h":361},
+	"sourceSize": {"w":721,"h":361},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"tank_02_hull.png":
+{
+	"frame": {"x":0,"y":361,"w":721,"h":361},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":721,"h":361},
+	"sourceSize": {"w":721,"h":361},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"tank_02_turret.png":
+{
+	"frame": {"x":721,"y":361,"w":721,"h":361},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":721,"h":361},
+	"sourceSize": {"w":721,"h":361},
+	"anchor": {"x":0.5,"y":0.5}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tank_02.png",
+	"format": "RGBA8888",
+	"size": {"w":1442,"h":722},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c369a55f56d78d801d1113b3cb9a7472:f452a2a0e5fa60409d934d82e82c73d5:bb5a950fa7a11c7c3a4edde3fe2ae114$"
+}
+}

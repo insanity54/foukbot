@@ -1,0 +1,38 @@
+<%- include('./partials/head.ejs') %>
+
+<script src="/assets/pixi.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.1.0/rxjs.umd.js">
+
+
+<div class="content">
+	<h1 class="title">Game</h1>
+</div>
+
+
+
+
+<script type="text/javascript">
+	let type = "WebGL"
+	if(!PIXI.utils.isWebGLSupported()){
+	  type = "canvas"
+	}
+
+	window.PIXI.utils.sayHello(type)
+</script>
+
+<script type="text/javascript">
+rxjs.of(1, 2, 3)
+  .subscribe(x => {
+    const element = document.createElement('div');
+    element.innerText = 'Data: ' + x;
+    document.body.appendChild(element)
+  },
+  err => { },
+  () => {
+    const element = document.createElement('div');
+    element.innerText = 'All done';
+    document.body.appendChild(element)
+  });
+</script>
+
+<%- include('./partials/foot.ejs') %>
