@@ -1,5 +1,5 @@
 import { Sprite, Container, Point } from 'pixi.js';
-import UpdateObject from 'interfaces/UpdateObject';
+import UpdateObject from '~/ts/interfaces/UpdateObject';
 
 export default abstract class Attackable implements UpdateObject {
 	public sprite!: Sprite;
@@ -12,6 +12,10 @@ export default abstract class Attackable implements UpdateObject {
 
 	constructor (spawnPosition: { x: number, y: number }) {
 		this.sprite = new Sprite();
+		
+	}
 
+	isDestroyed (): boolean {
+		return this.destroyed
 	}
 }

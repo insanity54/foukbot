@@ -14,6 +14,7 @@ const MongoStore = require('connect-mongo');
 const UserModel = require('./models/user.model');
 const mongoose = require('mongoose');
 const { tankSocketHandler } = require('./ws/tank.ws');
+const favicon = require('serve-favicon');
 
 if (typeof process.env.DB_CONNECTION_URL === 'undefined') throw new Error('DB_CONNECTION_URL required in env, but it was undefined.')
 if (typeof sessionSecret === 'undefined') throw new Error('SESSION_SECRET required in env, but it was undefined.')
@@ -45,6 +46,7 @@ app.use(hotwire());
 app.use(sessionMiddleware);
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(favicon(path.join(__dirname, 'src', 'img', 'favicon.ico')));
 
 app.use('/', express.static(staticDir));
 app.use('/img', express.static(path.join(srcDir, 'img')));
